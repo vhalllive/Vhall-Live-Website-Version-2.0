@@ -6820,6 +6820,7 @@ a {
         text-align: center;
     }
     .nav__mobileicon {
+        opacity : 0;
         color: #2b2a35;
         font-size: 32px;
     }
