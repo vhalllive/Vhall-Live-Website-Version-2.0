@@ -2743,7 +2743,7 @@ textarea.w-select {
 .chat-section {
     display: block;
     overflow: visible;
-    height: 125vh;
+    height: 100vh;
     margin-right: auto;
     margin-left: auto;
     padding-top: 0px;
