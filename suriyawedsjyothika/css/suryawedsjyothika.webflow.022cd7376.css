@@ -2740,6 +2740,27 @@ textarea.w-select {
     background-attachment: scroll;
 }
 
+.chat-section {
+    display: block;
+    overflow: visible;
+    height: 125vh;
+    margin-right: auto;
+    margin-left: auto;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    background-image: url("../img/5fc73c5e89e88b088714f5fe_3623813.jpg");
+    background-position: 0px 0px;
+    background-size: cover;
+    background-attachment: scroll;
+}
 .image-2 {
     margin-top: 16px;
 }
@@ -2782,6 +2803,30 @@ textarea.w-select {
 .live-container {
     position: relative;
     top: 50%;
+    display: block;
+    margin-top: 0px;
+    padding-top: 0px;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-pack: justify;
+    -webkit-justify-content: space-between;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-transform: translate(0px, -50%);
+    -ms-transform: translate(0px, -50%);
+    transform: translate(0px, -50%);
+}
+
+.chat-container {
+    position: relative;
+   
     display: block;
     margin-top: 0px;
     padding-top: 0px;
@@ -3578,6 +3623,10 @@ textarea.w-select {
         margin-top: 0px;
     }
     .live-section {
+        height: 90vh;
+        background-size: cover;
+    }
+    .chat-section {
         height: 90vh;
         background-size: cover;
     }
