@@ -2748,6 +2748,8 @@ textarea.w-select {
     margin-left: auto;
     padding-top: 0px;
     padding-bottom: 0px;
+    padding-left: 5%;
+    padding-right: 5%;
     -webkit-box-pack: center;
     -webkit-justify-content: center;
     -ms-flex-pack: center;
@@ -2826,7 +2828,7 @@ textarea.w-select {
 
 .chat-container {
     position: relative;
-   
+    top: 50%;
     display: block;
     margin-top: 0px;
     padding-top: 0px;
@@ -2849,12 +2851,18 @@ textarea.w-select {
 }
 
 .live-header {
-    margin-bottom: 20px;
+    margin-bottom: 0px;
     font-family: 'PT Serif', serif;
     color: #022859;
     text-align: center;
 }
 
+.chat-header {
+    margin-bottom: 20px;
+    font-family: 'PT Serif', serif;
+    color: #022859;
+    text-align: center;
+}
 .share-text {
     margin-top: auto;
     margin-bottom: auto;
@@ -3627,7 +3635,7 @@ textarea.w-select {
         background-size: cover;
     }
     .chat-section {
-        height: 90vh;
+        height: 100vh;
         background-size: cover;
     }
     .live-header {
