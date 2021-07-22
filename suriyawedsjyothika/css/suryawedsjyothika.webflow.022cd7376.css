@@ -2353,7 +2353,7 @@ textarea.w-select {
     -webkit-align-items: center;
     -ms-flex-align: center;
     align-items: center;
-    background-image: url("../img/5fc72c1bb86feb5587e5e226_Flowers.png");
+    /*background-image: url("../img/5fc72c1bb86feb5587e5e226_Flowers.png");*/
     background-position: 50% 50%;
     background-size: contain;
     background-repeat: no-repeat;
